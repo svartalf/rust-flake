@@ -1,0 +1,12 @@
+[package]
+name = "flake"
+version = "0.0.1"
+authors = ["svartalf <self@svartalf.info>"]
+repository = "https://github.com/svartalf/rust-flake.git"
+homepage = "https://github.com/svartalf/rust-flake"
+license = "MIT"
+readme = "README.md"
+description = "Generator of unique ID numbers at high scale. Basically a twitter' snowflake clone"
+
+[dependencies]
+time = "0.1.35"
